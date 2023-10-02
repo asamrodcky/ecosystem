@@ -21,7 +21,7 @@ const Nav = () => {
 
         </Link>
 
-        <div className="flex gap-3 md:gap-5">
+        {/* <div className="flex gap-3 md:gap-5">
                     <Link href="/create-prompt" 
                     className="black_btn">
                         Create Post
@@ -42,7 +42,19 @@ const Nav = () => {
                         />
                     </Link>
 
-                </div>
+        </div> */}
+        <Link href="todo" className="flex gap-3 md:gap-5">
+            ToDo App
+        </Link>
+        <Link href="clickygame" className="flex gap-3 md:gap-5">
+            clickyGame
+        </Link>
+        <Link href="chatsockets" className="flex gap-3 md:gap-5">
+            chatsockets
+        </Link>
+        <Link href="desmosbuilds" className="flex gap-3 md:gap-5">
+            clickyGame
+        </Link>
     </nav>
   )
 }
