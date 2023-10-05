@@ -1,8 +1,8 @@
 "use client"
 
 import React, {useState} from 'react'
-import Todo from '../../components/Todo'
-import TodoForm from '../../components/TodoForm'
+import Todo from '../../components/Todo/Todo'
+import TodoForm from '../../components/Todo/TodoForm'
 
 function TodoList() {
     const [todos, setTodos] = useState([])
